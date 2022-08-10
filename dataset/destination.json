@@ -1,0 +1,22 @@
+{
+	"name": "destination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService-adlsweudp26junab1dev01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "staging-zone"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

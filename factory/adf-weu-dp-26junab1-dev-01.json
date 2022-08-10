@@ -1,0 +1,9 @@
+{
+	"name": "adf-weu-dp-26junab1-dev-01",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "14fbbadc-a5ea-4c3c-8519-8dd3e428c4e5",
+		"tenantId": "d513efd1-c930-4757-bcd4-7c55dbffe164"
+	}
+}
